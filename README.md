@@ -25,6 +25,5 @@ The `Altium/` folder holds the Altium Designer project. Open `IMD test box final
 | `imd finale schematioc.SchDoc` | Schematic |
 | `pcb finale.PcbDoc` | Final PCB layout |
 | `pcb test.PcbDoc` | Test PCB layout |
-| `Project Outputs for IMD test box finale/` | Design rule check reports for both boards |
 
 `Pics/` has exported images of the schematic, the 2D layout and the 3D board.

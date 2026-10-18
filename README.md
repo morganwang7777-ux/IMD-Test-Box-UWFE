@@ -13,7 +13,7 @@ Test positions, target fault resistances and expected IMD responses come from a 
 | Tech fail | 75 kΩ (50% margin) | 60 kΩ | 3.7 W | 3.67 W | Mandatory trip: OK_hs drops, shutdown circuit opens within 30 s |
 | Hard short | 15 kΩ (car's own resistor) | 0 Ω, direct wire | 0 W in box (23 W in car) | 0 W in box (23.0 W in car) | Immediate trip, HV to chassis short |
 
-§ I calculated this column myself at the 588 V maximum tractive system voltage, with the car's 15 kΩ TSMP resistor in series: P = (588 V ÷ (box resistor + 15 kΩ))² × box resistor. Warning uses the 470 kΩ chain. Each chain is ten resistors in series, so each resistor takes a tenth of this power, at most 0.37 W.
+§ I calculated this column myself at the 588 V maximum tractive system voltage, with the car's 15 kΩ TSMP resistor in series: P = (588 V ÷ (box resistor + 15 kΩ))² × box resistor. Warning uses the 470 kΩ chain. Each chain is ten resistors in series, so each resistor takes a tenth of this power, at most 0.37 W, and under 60 V. I split each fault path into ten resistors because no single resistor met both the power and voltage ratings at 588 V.
 
 ## Design files
 
